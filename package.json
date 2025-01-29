@@ -1,0 +1,17 @@
+{
+  "name": "html1",
+  "version": "1.0.0",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "mongodb": "^6.12.0"
+  },
+  "keywords": [],
+  "description": ""
+}

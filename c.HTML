@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="webserver">
+        <label for="information">person1</label>
+        <input type="text" id="information" name ="person_details">
+        <label for="age">age</label>
+        <input type="integer" id="age" name="age">
+        <label for="contactnumber">phone number</label>
+        <input type = "tel" pattern="[0-9]{4}-[0-9]{6}"required placeholder="enter your mobile number in the required format">
+        <label for="picture">upload the image </label>
+        <input type="image" src="dog.webp" id="picture" name="picture" height="100" width="100">
+        <label for = "file details ">upload a file</label>
+        <input type="file" id="file details" name ="file details" required placehiolder="in pptx">
+        <input type="radio" name ="gender">male
+        <input type="radio" name="gender">female
+        <input type="radio" name="gender">others
+        <lable for="country">select the country from the dropdown</lable>
+        <select id = country name =country>
+            <option>ndia</option>
+            <option >gfghg</option>
+            <option >fgfxg</option>
+           
+        </select>
+        <lable for ="xyz">textbox</lable>
+        <input type="textbox" id ="xyz" name="fff" placeholder="add few lines about you">
+        <p>if you were given the chance to  two choose two qualities out of this this listed below which one you would select</p>
+        <input type="checkbox" name ="imp choice">humanity which will need your sacrifice
+        <input type="checkbox" name="imp choice">job with high money with all your professional comforts 
+        <input type="checkbox" name="imp choice">passion with  limited money 
+        <input type="submit" name="completion of form">
+        
+    </form>
+    
+</body>
+</html>
